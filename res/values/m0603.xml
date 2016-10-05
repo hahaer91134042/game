@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="M0601_T001">和電腦猜拳</string>
+<string name="M0601_T002">電腦出拳:</string>
+<string name="M0601_T003">玩家出拳:</string>
+<string name="M0601_B001">剪刀</string>
+<string name="M0601_B002">石頭</string>
+<string name="M0601_B003">布</string>
+<string name="M0601_T004">剪刀</string>
+<string name="M0601_T005">選擇:</string>
+<string name="M0601_T006">判定輸贏:</string>
+<string name="M0601_T007">06號 古佳弘</string>
+<string name="M0601_F001">你贏了</string>
+<string name="M0601_F002">你輸了</string>
+<string name="M0601_F003">平手</string>
+<string name="M0601_Timer">遊戲時間:</string>
+<string name="M0611_result">看統計結果</string>
+
+<string name="btnLoadResult">載入局數資料</string>
+<string name="btnSaveResult">儲存局數資料</string>
+<string name="btnClearResult">清除局數資料</string>
+    
+</resources>

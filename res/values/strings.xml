@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">14-1SharedPreferences猜拳遊戲</string>
+    <string name="action_settings">結束</string>
+
+</resources>

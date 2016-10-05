@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/M0601_R001"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Black"
+    tools:context="tcnr6.com.m1401.M0611" >
+
+    <ImageSwitcher
+        android:id="@+id/M0601_IS01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ImageSwitcher>
+
+    <TextView
+        android:id="@+id/M0601_T001"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/M0601_T002"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/dim2"
+        android:gravity="center"
+        android:text="@string/M0601_T001"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/Fuchsia"
+        android:textSize="@dimen/size" />
+
+    <ImageButton
+        android:id="@+id/M0601_B001"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/M0601_T003"
+        android:layout_below="@+id/M0601_T003"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/Silver"
+        android:scaleType="centerCrop"
+        android:src="@raw/scissors" />
+    
+        <ImageButton
+            android:id="@+id/M0601_B002"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignRight="@+id/M0601_B001"
+            android:layout_below="@+id/M0601_B001"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/Silver"
+            android:scaleType="centerCrop"
+            android:src="@raw/stone" />
+        
+            <ImageButton
+                android:id="@+id/M0601_B003"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignRight="@+id/M0601_B002"
+                android:layout_below="@+id/M0601_B002"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/Silver"
+                android:scaleType="centerCrop"
+                android:src="@raw/net" />
+
+            <TextView
+                android:id="@+id/M0601_T003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/M0601_T001"
+                android:layout_below="@+id/M0601_T001"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="14dp"
+                android:gravity="fill"
+                android:text="@string/M0601_T003"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@drawable/White" />
+
+            <TextView
+                android:id="@+id/M0601_T002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/M0601_B001"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/M0601_T002"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@drawable/White" />
+
+            <ImageSwitcher
+                android:id="@+id/M0601_IS02"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignBaseline="@+id/M0601_B002"
+                android:layout_alignBottom="@+id/M0601_B002"
+                android:layout_alignRight="@+id/M0601_T002"
+                android:layout_toLeftOf="@id/M0601_B002"
+                android:background="@raw/scissors"
+                android:scaleType="centerCrop"
+                android:src="@raw/scissors" >
+
+            </ImageSwitcher>
+
+            <TextView
+                android:id="@+id/M0601_T005"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/M0601_B003"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:text="@string/M0601_T005"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@drawable/Red" />
+
+            <TextView
+                android:id="@+id/M0601_T006"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/M0601_T005"
+                android:background="@drawable/White"
+                android:text="@string/M0601_T006"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/M0601_T007"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/M0601_T006"
+                android:layout_below="@+id/M0601_T006"
+                android:text="@string/M0601_T007"
+                android:textColor="@drawable/Lime" />
+
+            <TextView
+               android:id="@+id/M0601_Timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/M0601_T002"
+                android:layout_alignTop="@+id/M0601_B003"
+                android:text="@string/M0601_Timer"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@drawable/Lime"
+                android:textSize="@dimen/TimerSize" />
+
+           
+
+             <ImageView
+                android:id="@+id/M0601_IV01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+</RelativeLayout>

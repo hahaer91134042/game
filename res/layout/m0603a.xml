@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/Black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="全部局數："
+        android:textColor="@drawable/Lime" 
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:id="@+id/edtCountSet"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/White"
+        android:editable="false"
+        android:text="" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="玩家贏："
+        android:textColor="@drawable/Lime" 
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:id="@+id/edtCountPlayerWin"
+        android:layout_width="fill_parent"
+        
+        android:layout_height="35dp"
+        android:background="@drawable/White"
+        android:editable="false"
+        android:text="" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="電腦贏："
+        android:textColor="@drawable/Lime" 
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:id="@+id/edtCountComWin"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/White"
+        android:editable="false"
+        android:text="" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="平手："
+        android:textColor="@drawable/Lime"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edtCountDraw"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/White"
+        android:editable="false"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnBackToGame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/Aqua"
+        android:text="回到遊戲" />
+
+</LinearLayout>

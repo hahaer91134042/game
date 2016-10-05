@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tcnr6.com.m0601.M0601" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item android:id="@+id/item1" android:title="@string/M0611_result"></item>
+    <item android:id="@+id/SaveResult" android:title="@string/btnSaveResult"></item>
+    <item android:id="@+id/LoadResult" android:title="@string/btnLoadResult"></item>
+    <item android:id="@+id/ClearResult" android:title="@string/btnClearResult"></item>
+
+</menu>
